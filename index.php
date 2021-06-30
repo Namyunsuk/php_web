@@ -34,14 +34,13 @@
                 $total = mysqli_num_rows($result);
  
         ?>
-        <h2 align=center>게시판</h2>
+        <h2>게시판</h2>
         <table align = center>
-        <thead align = "center">
+        <thead>
         <tr>
-        <td width = "50" align="center">번호</td>
-        <td width = "500" align = "center">제목</td>
-        <td width = "100" align = "center">작성자</td>
-       
+        <td>번호</td>
+        <td>제목</td>
+        <td>작성자</td>
         </tr>
         </thead>
  
@@ -54,11 +53,11 @@
                         else{
         ?>                      <tr>
                         <?php } ?>
-                <td width = "50" align = "center"><?php echo $total?></td>
-                <td width = "500" align = "center">
+                <td><?php echo $total?></td>
+                
                 <a href = "view.php?number=<?php echo $rows['number']?>">
                 <?php echo $rows['title']?></td>
-                  <td width = "100" align = "center"><?php echo $rows['id']?></td>
+                  <td><?php echo $rows['id']?></td>
               
                 </tr>
         <?php
