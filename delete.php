@@ -4,7 +4,6 @@
     $number = $_GET[number];
     $title = $_GET[title];
     $content = $_GET[content];
-    $date = date('Y-m-d H:i:s');
     $query = "delete from board where number=$number";
     $result = $connect->query($query);
     if($result) {
