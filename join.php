@@ -5,6 +5,7 @@
         <meta charset='utf-8'>
 </head>
 <body>
+ 
         <div align="center">
                 <p>회원가입</p>
                 <form method='get' action='join_action.php'>
