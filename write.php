@@ -10,7 +10,7 @@
                 <tr>
                 <td > 글쓰기</td>
                 </tr>
-                <tr>
+              
               
                 <table class = "table2">
                         <tr>
